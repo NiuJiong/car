@@ -1,0 +1,147 @@
+#swiper-container2{
+	
+}
+#swiper-container2 .swiper-wrapper .swiper-slide{
+	background-color: #009B4C;
+	color: white;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide.active{
+	background-color: white;
+	color: #009B4C;	
+}
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(1){
+	display: block;
+	height: 1.5rem;
+	position: relative;
+	margin-top: 0.8rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1){
+	background: url(../image/shida01.png) no-repeat center center;
+	background-size:auto 1.3rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1){
+	background: url(../image/shida02.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1){
+	background: url(../image/shida03.png) no-repeat center center;
+	background-size: auto 1.4rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1){
+	background: url(../image/shida04.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1){
+	background: url(../image/shida05.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1).active{
+	background: url(../image/shidaac01.png) no-repeat center center;
+	background-size:auto 1.3rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1).active{
+	background: url(../image/shidaac02.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1).active{
+	background: url(../image/shidaac03.png) no-repeat center center;
+	background-size: auto 1.3rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1).active{
+	background: url(../image/shidaac04.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1).active{
+	background: url(../image/shidaac05.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+
+
+
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(1) img{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: auto;
+	height:1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(2){
+	display: block;
+	font-size:0.336rem;
+	margin: 0.5rem 0 0.8rem 0;
+	text-align: center;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide img{
+	display: block;
+	width: 0.888rem;
+	margin: auto;
+	vertical-align: bottom;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1) img{
+	height: 1.4rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1) img{
+	height: 1.6rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide.active{
+	background: white;
+}
+
+/*<!--		对应内容-->*/
+#swiper-container3 .swiper-wrapper .swiper-slide{
+	
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul{
+	/*overflow-x: hidden;
+	margin: 0 -5%;*/
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li{
+	font-size: 0;
+	margin-bottom: 0.8rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div{
+	display: inline-block;
+	vertical-align: middle;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(1){
+	width: 7rem;
+	margin-right: 0.6rem;
+}
+
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2){
+	width: 10rem;
+	font-size: 0.576rem;
+	color: black;
+}
+
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:first-child{
+	margin-bottom: 0.3rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:nth-child(n+2){
+	margin-bottom: 0.1rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:nth-child(n+2) a{
+	display: block;
+	color: #666666;
+	transform: scale(0.9);
+	margin-left: -5%;
+	margin-right: -5%;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:last-child{
+	text-align: right;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:last-child a{
+	display: inline-block;
+	color: #666666;
+	transform: scale(1);
+	margin: 0;
+	padding: 0;
+	margin-right: 0.5rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:last-child a img{
+	display:inline-block;
+	width: 0.624rem;
+	vertical-align: middle;
+	margin-right: 0.1rem;
+}

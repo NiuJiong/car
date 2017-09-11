@@ -1,0 +1,135 @@
+#swiper-container2{
+	
+}
+#swiper-container2 .swiper-wrapper .swiper-slide{
+	background-color: #009B4C;
+	color: white;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide.active{
+	background-color: white;
+	color: #009B4C;	
+}
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(1){
+	display: block;
+	height: 1.5rem;
+	position: relative;
+	margin-top: 0.8rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1){
+	background: url(../image/jiankangactive.png) no-repeat center center;
+	background-size:auto 1.3rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1){
+	background: url(../image/chagnshi.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1){
+	background: url(../image/jianqie.png) no-repeat center center;
+	background-size: auto 2rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1){
+	background: url(../image/xiaozhishi.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1){
+	background: url(../image/liuyan.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1).active{
+	background: url(../image/jiankang.png) no-repeat center center;
+	background-size:auto 1.3rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1).active{
+	background: url(../image/changshiactive.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1).active{
+	background: url(../image/lvse.png) no-repeat center center;
+	background-size: auto 2rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1).active{
+	background: url(../image/chayeactive.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1).active{
+	background: url(../image/liuyanactive.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+
+
+
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(1) img{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: auto;
+	height:1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(2){
+	display: block;
+	font-size:0.336rem;
+	margin: 0.5rem 0 0.8rem 0;
+	text-align: center;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide img{
+	display: block;
+	width: 0.888rem;
+	margin: auto;
+	vertical-align: bottom;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1) img{
+	height: 1.4rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1) img{
+	height: 1.6rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide.active{
+	background: white;
+}
+
+
+#swiper-container3{
+	
+}
+#swiper-container3 .swiper-wrapper{
+
+	
+}
+#swiper-container3 .swiper-wrapper .swiper-slide{
+	overflow: hidden;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul{
+	/*margin:0 -5%;
+	overflow-x: hidden;*/
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li{
+	font-size: 0;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li>div{
+	display: inline-block;
+	vertical-align: middle;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li>div:nth-child(1){
+	width: 6.574rem;
+	margin-right: 1rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li>div:nth-child(1) img{
+	
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li>div:nth-child(2){
+	color: #009b4c;
+	font-size: 0.576rem;
+	width: 10rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li>div:nth-child(2) p{
+	margin-bottom: 0.2rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li>div:nth-child(2) p:nth-child(2){
+	font-size: 0.5rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li>div:nth-child(2) p:nth-child(n+3){
+	margin-bottom: 0.2rem;
+	font-size: 0.6rem;
+	color: black;
+}

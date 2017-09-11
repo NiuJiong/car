@@ -1,0 +1,194 @@
+body,html,h1,h2,h3,h4,h5,h6,p,div,ul,li,ol{
+	margin: 0;
+	padding: 0;
+	font-family: pingfang;
+}
+ul,ol,li{
+	list-style: none;
+}
+@font-face {
+	font-family:pingfang;
+	src: url("../font/PingFang Medium.ttf");
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+button{
+	outline: none;
+}
+a:focus,a:active{
+	border: none;
+	background: none;
+}
+.clearlr:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearlr{
+	zoom: 1;
+}
+
+
+
+/*头部*/
+header{
+	
+}
+header ul{
+	font-size: 0;
+}
+header ul li{
+	display: inline-block;
+	width: 33.33333%;
+	vertical-align: middle;
+}
+header ul li:nth-child(1){
+	
+}
+header ul li:nth-child(1) a{
+	display: block;
+	margin-left: 0.3rem;
+}
+header ul li:nth-child(1) a img{
+	width: 5rem;
+	margin-top: 0.3rem;
+}
+header ul li:nth-child(2){
+	text-align: center;
+	position: relative;
+}
+header ul li:nth-child(2) span{
+	display: inline-block;
+	width: 0.7rem;
+	margin-right: 0.1rem;
+	vertical-align: middle;
+}
+header ul li:nth-child(2)>div{
+	display: inline-block;
+	vertical-align: middle;
+}
+header ul li:nth-child(2)>div div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: white;
+	z-index: 99999;
+}
+header ul li:nth-child(2)>div div a{
+	display: block;
+}
+header ul li:nth-child(2)>div>a{
+	width:auto;
+	text-align: left;
+	background: url(../image/sshouye02.png) no-repeat right center;
+	background-size:0.4rem auto;
+	padding-right: 0.5rem;
+}
+header ul li:nth-child(2)>div a{
+	display: block;
+	color: #009b4c;
+	font-size: 0.432rem;
+	margin: 5px 0;
+}
+header ul li:nth-child(3){
+	
+}
+header ul li:nth-child(3) div{
+	position: relative;
+	width: 4.44rem;
+	margin: auto;
+}
+header ul li:nth-child(3) div span{
+	position: absolute;
+	right: -2px;
+	top: 0;
+	bottom: 0;
+	text-align: right;
+}
+header ul li:nth-child(3) div span img{
+	width: 0.7rem;
+	height: 100%;
+}
+header ul li:nth-child(3) input{
+	display: block;
+	width:100%;
+	border-radius:1rem;
+	border: 1px solid #15A45B;
+	outline: none;
+	text-indent: 0.5rem;
+	font-size: 0.432rem;
+	color: #009b4c;
+	font-family: pingfang;
+}
+
+
+
+/*<!--		banner轮播-->*/
+.swiper-slide img{
+	display: block;
+}
+.swiper-pagination-bullet{
+	background: white;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active{
+	background: #009B4C;
+}
+.swiper-container{
+	margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+/*		页脚部分*/
+footer{
+	background: #009B4C;
+	padding-bottom:0.5rem;
+	margin: 0;
+}
+footer>div{
+	display: inline-block;
+	font-size: 0;
+	vertical-align: middle;
+}
+footer>div:nth-child(1){
+	width:14.5rem;
+	transform: scaleX(0.8);
+	margin-left: -5%;
+	margin-right: -8%;
+}
+footer>div:nth-child(1) p:nth-child(1){
+	width:7rem;
+	margin-left: -1rem;
+}
+footer>div:nth-child(1) p:nth-child(n+2){
+	font-size: 0.288rem;
+	color: white;
+	transform: scaleY(0.8);
+}
+footer>div:nth-child(2){
+	width: 5rem;
+	text-align: right;
+}
+footer>div:nth-child(2) img{
+	display: inline-block;
+	width: 3.096rem;
+}
+footer>div:nth-child(2) img:nth-child(2){
+	margin-left: 0.5rem;
+	width: 1.32rem;
+}
