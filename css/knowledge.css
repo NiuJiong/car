@@ -4,9 +4,10 @@
 #swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3) ol li{
 	list-style: initial;
 	color: #999999;
-	margin-left: 0.5rem;
+	margin-left: 2rem;
 }
 #swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3) a{
+	vertical-align: middle;
 	font-size: 0.7rem;
 	color: #666666;
 }
@@ -15,4 +16,22 @@
 	background: url(../image/back.png) no-repeat right center;
 	background-size:25% 100%;
 	font-family: pingfang;
+}
+@media (min-width: 760px) {
+	#swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3) ol{
+		
+	}
+	#swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3) ol li{
+		font-size: 40px;
+	list-style: initial;
+	color: #999999;
+	margin-left: 2rem;
+}
+	#swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3) a{
+		display: inline-block;
+		vertical-align: middle;
+	font-size:20px;
+	color: #666666;
+	margin-bottom: 15px;
+}
 }

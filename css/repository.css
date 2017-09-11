@@ -1,4 +1,4 @@
-#swiper-container2{
+/*#swiper-container2{
 	
 }
 #swiper-container2 .swiper-wrapper .swiper-slide{
@@ -86,7 +86,155 @@
 }
 #swiper-container2 .swiper-wrapper .swiper-slide.active{
 	background: white;
+}*/
+
+
+#swiper-container2{
+	
 }
+#swiper-container2 .swiper-wrapper .swiper-slide{
+	background-color: #009B4C;
+	color: white;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide.active{
+	background-color: white;
+	color: #009B4C;	
+}
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(1){
+	display: block;
+	height: 1.2rem;
+	position: relative;
+	margin-top: 0.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1){
+	background: url(../image/shida01.png) no-repeat center center;
+	background-size:auto 1rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1){
+	background: url(../image/shida02.png) no-repeat center center;
+	background-size:auto 1.2rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1){
+	background: url(../image/shida03.png) no-repeat center center;
+	background-size: auto 1rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1){
+	background: url(../image/shida04.png) no-repeat center center;
+	background-size:auto 1.2rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1){
+	background: url(../image/shida05.png) no-repeat center center;
+	background-size:auto 1.2rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1).active{
+	background: url(../image/shidaac01.png) no-repeat center center;
+	background-size:auto 1.1rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1).active{
+	background: url(../image/shidaac02.png) no-repeat center center;
+	background-size:auto 1.2rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1).active{
+	background: url(../image/shidaac03.png) no-repeat center center;
+	background-size: auto 1rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1).active{
+	background: url(../image/shidaac04.png) no-repeat center center;
+	background-size:auto 1.2rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1).active{
+	background: url(../image/shidaac05.png) no-repeat center center;
+	background-size:auto 1.2rem;
+}
+
+@media (min-width: 700px) {
+	#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(1){
+	display: block;
+	height: 60px;
+	position: relative;
+	margin-top: 0px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1){
+	background: url(../image/shida01.png) no-repeat center center;
+	background-size:auto 30px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1){
+	background: url(../image/shida02.png) no-repeat center center;
+	background-size:auto 30px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1){
+	background: url(../image/shida03.png) no-repeat center center;
+	background-size: auto 30px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1){
+	background: url(../image/shida04.png) no-repeat center center;
+	background-size:auto 35px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1){
+	background: url(../image/shida05.png) no-repeat center center;
+	background-size:auto 30px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1).active{
+	background: url(../image/shidaac01.png) no-repeat center center;
+	background-size:auto 30px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(1).active{
+	background: url(../image/shidaac02.png) no-repeat center center;
+	background-size:auto 30px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(1).active{
+	background: url(../image/shidaac03.png) no-repeat center center;
+	background-size: auto 30px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1).active{
+	background: url(../image/shidaac04.png) no-repeat center center;
+	background-size:auto 35px;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(5) span:nth-child(1).active{
+	background: url(../image/shidaac05.png) no-repeat center center;
+	background-size:auto 30px;
+}
+}
+
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(1) img{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: auto;
+	height:1.5rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(2){
+	display: block;
+	font-size:12px;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide img{
+	display: block;
+	width: 0.888rem;
+	margin: auto;
+	vertical-align: bottom;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(1) img{
+	height: 1.4rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide:nth-child(4) span:nth-child(1) img{
+	height: 1.6rem;
+}
+#swiper-container2 .swiper-wrapper .swiper-slide.active{
+	background: white;
+}
+@media (min-width: 700px) {
+	#swiper-container2 .swiper-wrapper .swiper-slide span:nth-child(2){
+		display: block;
+		font-size:18px;
+		margin: 10px 0 10px 0;
+		text-align: center;
+	}
+}
+
+
 
 /*<!--		对应内容-->*/
 #swiper-container3 .swiper-wrapper .swiper-slide{
@@ -98,6 +246,10 @@
 #swiper-container3 .swiper-wrapper .swiper-slide ul li{
 	font-size: 0;
 	margin-bottom: 0.8rem;
+	margin: 0 10px 0.8rem 10px;
+}
+@media (min-width: 700px) {
+	
 }
 #swiper-container3 .swiper-wrapper .swiper-slide ul li div{
 	display: inline-block;
@@ -109,7 +261,7 @@
 }
 
 #swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2){
-	width: 10rem;
+	width: 9rem;
 	font-size: 0.576rem;
 	color: black;
 }
@@ -143,4 +295,24 @@
 	width: 0.624rem;
 	vertical-align: middle;
 	margin-right: 0.1rem;
+}
+@media (min-width: 700px) {
+	#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2){
+	width: 9rem;
+	font-size: 20px;
+	color: black;
+}	
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:nth-child(n+2) a{
+	transform: scale(1);
+	margin-left: 0;
+	margin-right:0;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide ul li div:nth-child(2) p:last-child a img{
+	display:inline-block;
+	width: 20px;
+	vertical-align: bottom;
+	margin-right: 0.1rem;
+}
 }

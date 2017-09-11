@@ -40,7 +40,7 @@ a:focus,a:active{
 
 /*头部*/
 header{
-	
+	padding: 10px 0;
 }
 header ul{
 	font-size: 0;
@@ -51,7 +51,7 @@ header ul li{
 	vertical-align: middle;
 }
 header ul li:nth-child(2){
-	width: 66.66%;
+	width:66.666666%;
 }
 header ul li:nth-child(1) a{
 	display: block;
@@ -61,50 +61,13 @@ header ul li:nth-child(1) a img{
 	width: 5rem;
 	margin-top: 0.3rem;
 }
-/*header ul li:nth-child(2){
-	text-align: center;
-	position: relative;
-}
-header ul li:nth-child(2) span{
-	display: inline-block;
-	width: 0.7rem;
-	margin-right: 0.1rem;
-	vertical-align: middle;
-}
-header ul li:nth-child(2)>div{
-	display: inline-block;
-	vertical-align: middle;
-}
-header ul li:nth-child(2)>div div{
-	position: absolute;
-	left: 0;
-	right: 0;
-	background: white;
-	z-index: 99999;
-}
-header ul li:nth-child(2)>div div a{
-	display: block;
-}
-header ul li:nth-child(2)>div>a{
-	width:auto;
-	text-align: left;
-	background: url(../image/sshouye02.png) no-repeat right center;
-	background-size:0.4rem auto;
-	padding-right: 0.5rem;
-}
-header ul li:nth-child(2)>div a{
-	display: block;
-	color: #009b4c;
-	font-size: 0.432rem;
-	margin: 5px 0;
-}*/
 header ul li:nth-child(2){
-	
+	text-align: right;
 }
 header ul li:nth-child(2) div{
 	position: relative;
-	width: 90%;
-	margin: auto;
+	width:60%;
+	margin-left: 30%;
 }
 header ul li:nth-child(2) div span{
 	position: absolute;
@@ -120,13 +83,14 @@ header ul li:nth-child(2) div span img{
 header ul li:nth-child(2) input{
 	display: block;
 	width:100%;
-	border-radius:1rem;
+	border-radius:50px;
 	border: 1px solid #15A45B;
 	outline: none;
 	text-indent: 0.5rem;
 	font-size: 0.432rem;
 	color: #009b4c;
 	font-family: pingfang;
+	padding: 2px 0;
 }
 
 
@@ -160,11 +124,12 @@ body{
 }
 footer{
 	background: #009B4C;
+	padding: 10px 0;
 }
 footer>div{
 	display: inline-block;
 	font-size: 0;
-	vertical-ali gn: middle;
+	vertical-align: middle;
 }
 footer>div:nth-child(1){
 	width:14.5rem;
@@ -177,9 +142,16 @@ footer>div:nth-child(1) p:nth-child(1){
 	margin-left: 0;
 }
 footer>div:nth-child(1) p:nth-child(n+2){
-	font-size: 0.288rem;
+	font-size: 12px;
 	color: white;
 	transform: scaleY(0.8);
+}
+@media (min-width: 700px) {
+	footer>div:nth-child(1) p:nth-child(n+2){
+		font-size: 16px;
+		color: white;
+		transform: scaleY(1);
+	}
 }
 footer>div:nth-child(2){
 	width: 5rem;
@@ -194,7 +166,16 @@ footer>div:nth-child(2) img:nth-child(2){
 	width: 1.32rem;
 }
 
-
+@media (min-width: 700px) {
+	footer>div:nth-child(2) img{
+	display: inline-block;
+	width: 2.096rem;
+}
+footer>div:nth-child(2) img:nth-child(2){
+	margin-left: 0.5rem;
+	width: 0.8rem;
+}
+}
 
 .xiala{
 	position: fixed;
@@ -214,14 +195,14 @@ footer>div:nth-child(2) img:nth-child(2){
 }
 
 body{
-	padding-bottom: 50px;	
+	padding-bottom: 60px;	
 }
 nav{
 	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	height: 50px;
+	height: 60px;
 	z-index: 999999;
 	background: white;
 }
@@ -233,16 +214,33 @@ nav ul li a{
 	display: block;
 	font-size: 12px;
 	text-align: center;
-	line-height: 50px;
+	line-height: 90px;
 	color: #666666;
 	font-size: pingfang;
 }
-@media (min-width: 768px) {
+nav ul li:nth-child(1) a{
+	background: url(../image/shouye.png) no-repeat center 8px;
+	background-size:30px auto;
+}
+nav ul li:nth-child(2) a{
+	background: url(../image/zhishi.png) no-repeat center 8px;
+	background-size:30px auto;
+}
+nav ul li:nth-child(3) a{
+	background: url(../image/shizhiku.png) no-repeat center 8px;
+	background-size:30px auto;
+}
+nav ul li:nth-child(4) a{
+	background: url(../image/denglu.png) no-repeat center 12px;
+	background-size:20px auto;
+}
+@media (min-width: 700px) {
 	body{
-		padding-bottom: 60px;	
+		padding-bottom: 70px;	
 	}
 	nav{
-		height: 60px;
+		height: 70px;
+		line-height: 100px;
 	}
 	nav ul li{
 		float:  left;
