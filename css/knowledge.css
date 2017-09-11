@@ -1,0 +1,18 @@
+#swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3){
+	
+}
+#swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3) ol li{
+	list-style: initial;
+	color: #999999;
+	margin-left: 0.5rem;
+}
+#swiper-container3 .swiper-wrapper .swiper-slide:nth-child(3) a{
+	font-size: 0.7rem;
+	color: #666666;
+}
+#swiper-container3{
+	height: auto!important;
+	background: url(../image/back.png) no-repeat right center;
+	background-size:25% 100%;
+	font-family: pingfang;
+}
