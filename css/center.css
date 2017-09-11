@@ -1,0 +1,77 @@
+.people{
+	position: relative;
+}
+.people img{
+	display: block;
+}
+.people .ziliao{
+	position: absolute;
+	left:0;
+	right: 0;
+	top: 2rem;
+}
+.people .ziliao>div{
+	display: inline-block;
+	font-size: 0;
+	vertical-align: bottom;
+}
+.people .ziliao>div:nth-child(1){
+	width: 3.36rem;
+	margin-left: 0.5rem;
+}
+.people .ziliao>div:nth-child(2){
+	font-size: 0.48rem;
+	color: white;
+	transform: scaleX(0.9);
+}
+.people .ziliao>div:nth-child(2) span:last-child{
+	float: right;
+}
+.people .ziliao>div:nth-child(2) a{
+	font-size: 0.48rem;
+	color: white;
+}
+.people .ziliao>div:nth-child(2) p:nth-child(2){
+	
+}
+.people .ziliao>div:nth-child(2) p:nth-child(2) a:nth-child(n+2){
+	color: #C8C8C7;
+	margin-left: 0.3rem;
+}
+
+
+/*<!--		菜单列表-->*/
+body{
+	background: #EBEBEB;
+}
+.caidna{
+	border: 1 solid red;
+	margin-top: 0.5rem;
+	background: white;
+	padding-bottom: 2rem;
+}
+.caidna ul{
+	
+}
+.caidna ul li{
+	
+}
+.caidna ul li a{ 
+	display: block;
+	font-size: 0;
+	margin-left: 0.5rem;
+	border-bottom: 1px solid #EBEBEB;
+	padding: 0.5rem 0;
+}
+.caidna ul li a span{ 
+	display: inline-block;
+	vertical-align: middle;
+}
+.caidna ul li a span:nth-child(1){ 
+	width: 1.272rem;
+}
+.caidna ul li a span:nth-child(2){ 
+	font-size: 0.432rem;
+	color: #333333;
+	margin-left: 1rem;
+}
